@@ -10,6 +10,7 @@ body {
   background: var(--mainWhite);
   color: var(--mainDark);
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  /* overflow-x: hidden; */
 }
 
 h1,
@@ -59,4 +60,9 @@ h6 {
 
 .footer {
   background: var(--mainBrown);
+}
+
+.menu,
+.contact { 
+  background: var(--mainGrey)
 }
